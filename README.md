@@ -131,7 +131,11 @@ shap                     # Model explainability
 
 ## 🚀 How to Run
 
-The project is available on Google Colab, with no local setup required:
+### 📓 Explanatory Notebook
+
+The full explanatory notebook with analysis, modeling, and results is available in **`FIAP_TechChallenge.ipynb`**.
+
+You can also run it directly on Google Colab, with no local setup required:
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/bschoola/075cb2170450074136e6a299974a5967/1-fiap_techchallenge.ipynb)
 
@@ -139,6 +143,37 @@ The project is available on Google Colab, with no local setup required:
 1. Click the badge above to open the notebook
 2. Click **"Run all"** (`Runtime > Run all`)
 3. The dataset loads automatically via a public GitHub URL
+
+---
+
+### 🐍 Python Project
+
+If you'd like to run the structured Python project, it is located in the **`python-project/`** folder.
+
+**1. Create and activate a virtual environment:**
+
+```bash
+# Create the environment
+python -m venv venv
+
+# Activate on Windows
+venv\Scripts\activate
+
+# Activate on macOS/Linux
+source venv/bin/activate
+```
+
+**2. Install dependencies:**
+
+```bash
+pip install -r python-project/requirements.txt
+```
+
+**3. Run the project:**
+
+```bash
+python python-project/main.py
+```
 
 ---
 
